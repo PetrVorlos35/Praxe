@@ -2,10 +2,11 @@ body{
     overflow-x: hidden;
     background-color: rgb(97, 92, 92);
 }
-/* 
+
 *{
-    font-family: 'Roboto', sans-serif;
-} */
+    /* font-family: 'Roboto', sans-serif; */
+    font-size: 1rem;
+}
 
 
 .logo{
@@ -103,12 +104,27 @@ body{
     background-color:rgb(236, 174, 26);
 }
 
-.karticka{
-    width: 25%;
-    left: 20%;
+.karticka > svg{
+    color: red;
 }
 
-table{
-    position: relative;
-    left: 25%;
+.karticka{
+    margin: 2rem;
+    width: 50%;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    flex-basis: 33.33%;
+    padding: 10px;
+    box-sizing: border-bo
+}
+
+.sipka{
+    justify-content: flex-end;
+    display: flex;
 }
