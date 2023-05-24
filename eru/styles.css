@@ -193,3 +193,26 @@ body{
 .radio > form > input{
     margin-right: 2rem;
 }
+
+.footer{
+    width: 100%;
+    background-color: rgb(59, 59, 59);
+    color: white;
+    padding: 2rem;
+
+}
+
+.footer > div > a, button {
+    text-decoration: none;
+    color: white;
+}
+
+.flex-item2 {
+    flex-basis: 25%;
+    padding: 10px;
+    box-sizing: border-bo
+}
+
+.flex-item2 > a > span{
+    color: rgb(231, 169, 28);
+}
