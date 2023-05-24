@@ -128,3 +128,30 @@ body{
     justify-content: flex-end;
     display: flex;
 }
+
+.round{
+    border-radius: 50% 50% 0 0;
+    border: none;
+    background-color: rgb(35, 98, 162);
+    color: white;
+    padding: 0.5rem;
+    margin-bottom: 0;
+}
+
+.text-center{
+    margin-bottom: 0;
+}
+
+.dolni-menu{
+    width: 80%;
+    background-color: rgb(35, 98, 162);
+    margin: 0 auto;
+    position: relative;
+    top: -10%;
+    color: white;
+    margin-top: 0;
+}
+
+.dolni-menu > div > p{
+    color: white;
+}
