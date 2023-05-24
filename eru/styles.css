@@ -155,3 +155,41 @@ body{
 .dolni-menu > div > p{
     color: white;
 }
+
+.rating{
+    width: 100%;
+    background-color:rgb(229, 235, 240);
+    padding: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.rating > h3,h5{
+    display: inline-block;
+}
+
+.rating > h3{
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+.rating > h5{
+    margin-bottom: 2rem;
+}
+
+.radio{
+    position: relative;
+    left: 31%;
+}
+
+.radio > p, form{
+    display: inline-block;
+}
+
+.radio > form > label{
+    font-size: 1.5rem;
+}
+
+.radio > form > input{
+    margin-right: 2rem;
+}
