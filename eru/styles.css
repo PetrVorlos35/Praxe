@@ -144,6 +144,7 @@ body{
 .karticka{
     margin: 2rem;
     width: 50%;
+    height: 100%;
 }
 
 .flex-container {
@@ -160,6 +161,11 @@ body{
 .sipka{
     justify-content: flex-end;
     display: flex;
+}
+
+.sipka:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .round{
@@ -252,6 +258,10 @@ body{
     color: rgb(231, 169, 28);
 }
 
+.flex-item2 > a:hover{
+    text-decoration: underline;
+}
+
 .contact{
     width: 25%;
 }
@@ -267,4 +277,8 @@ body{
 .odkazy > a{
     text-decoration: none;
     color: white;
+}
+
+.odkazy > a:hover{
+    text-decoration: underline;
 }
