@@ -231,11 +231,11 @@ body{
     width: 100%;
     background-color: rgb(59, 59, 59);
     color: white;
-    padding: 2rem;
+    padding: 3rem;
 
 }
 
-.footer > div > a, button {
+.footer > div > div > a, button {
     text-decoration: none;
     color: white;
 }
@@ -243,9 +243,27 @@ body{
 .flex-item2 {
     flex-basis: 25%;
     padding: 10px;
-    box-sizing: border-bo
+    box-sizing: border-box;
+    padding-bottom: 4rem;
 }
 
 .flex-item2 > a > span{
     color: rgb(231, 169, 28);
+}
+
+.contact{
+    width: 25%;
+}
+.copy{
+    color: rgb(151, 157, 153);
+}
+
+.odkazy{
+    float: right;
+    display: inline;
+}
+
+.odkazy > a{
+    text-decoration: none;
+    color: white;
 }
