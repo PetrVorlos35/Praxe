@@ -17,20 +17,22 @@ body{
     margin-bottom: 3%;
     margin-top: 3%;
 }
+.navv{
+    margin:0;
+}
 
-#navtext > a{
+#navtext > div > a{
     color: white;
     text-decoration: none;
 }
 
-#navtext > a:hover{
+#navtext > div > a:hover{
     text-decoration: underline;
 }
 
-.carousel-caption > h1{
-    width: 50%; 
-    margin: 0 auto; 
-    margin-bottom: 10%;
+.carousel-caption > h5{
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 .overshadow{
@@ -142,9 +144,10 @@ body{
 }
 
 .karticka{
-    margin: 2rem;
+    /* margin: 2rem; */
     width: 50%;
     height: 100%;
+    padding-right: 10px;
 }
 
 .flex-container {
@@ -155,12 +158,13 @@ body{
 .flex-item {
     flex-basis: 33.33%;
     padding: 10px;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 .sipka{
     justify-content: flex-end;
     display: flex;
+    display: inline-block;
 }
 
 .sipka:hover{
@@ -242,7 +246,7 @@ body{
 
 }
 
-.footer > div > div > a, button {
+.footer > div > div > div > a, button {
     text-decoration: none;
     color: white;
 }
@@ -281,4 +285,13 @@ body{
 
 .odkazy > a:hover{
     text-decoration: underline;
+}
+
+.dolni>p{
+padding-right: 2,5rem;
+}
+
+form > div {
+    display: inline;
+    margin: 0.2rem;
 }

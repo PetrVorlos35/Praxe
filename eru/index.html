@@ -11,15 +11,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com%22%3E/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="icon" href="logo.jpg">
 </head>
 <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(35, 98, 162); padding-right: 10%;">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+    <nav class="navbar navbar-expand navbar-dark " style="background-color: rgb(35, 98, 162); padding-right:10%;justify-content: flex-end;">
+        <div class="justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
             <li class="nav-item">
                 <a class="nav-link" href="#" style="color: white;">ENGLISH</a>
@@ -30,7 +27,7 @@
             </ul>
         </div>
     </nav>
-    
+    <div class="container">
     <!-- logo -->
     <div class=" logo">
         <div class="row">
@@ -43,21 +40,26 @@
 
 
     <!-- main navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark" style="width: 80%; margin: 0 auto; background-color: rgb(35, 98, 162); padding-left: 2%; padding-right: 2%;">
-        <div class="container-fluid" id="navtext">
-            <a class="navbar-text" href="#">Úvod</a>
-            <a class="navbar-text" href="#">O úřadu</a>
-            <a class="navbar-text" href="#">Média</a>
-            <a class="navbar-text" href="#">Aktuálně</a>
-            <a class="navbar-text" href="#">Pro spotřebitele</a>
-            <a class="navbar-text" href="#">Pro odborníky</a>
-            <a class="navbar-text" href="#">Energie</a>
-            <a class="navbar-text" href="#">Kontakty</a>
+    <nav class="navbar navbar-expand-xl navv navbar-dark" style="width: 80%; margin: 0 auto; background-color: rgb(35, 98, 162); padding-left: 2%; padding-right: 2%;">
+        <div class="container-fluid text-center" id="navtext" >
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse m-0 text-center" style="margin: 0; padding: 0" id="navbarTogglerDemo01">
+                <a class="navbar-text navbar-brand nav-link" href="#">Úvod</a>
+                <a class="navbar-text navbar-brand nav-link" href="#">O úřadu</a>
+                <a class="navbar-text navbar-brand nav-link" href="#">Média</a>
+                <a class="navbar-text navbar-brand nav-link" href="#">Aktuálně</a>
+                <a class="navbar-text navbar-brand nav-link" href="#">Pro spotřebitele</a>
+                <a class="navbar-text navbar-brand nav-link" href="#">Pro odborníky</a>
+                <a class="navbar-text navbar-brand nav-link" href="#">Energie</a>
+                <a class="navbar-text navbar-brand nav-link" href="#">Kontakty</a>
+            </div>
         </div>
     </nav>
 
     <!-- rotator -->
-    <div id="carouselExampleCaptions" class="carousel slide" style="width:80%; margin: 0 auto;">
+    <div id="carouselExampleCaptions" class="carousel slide container-fluid p-0" style="width:80%">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -67,51 +69,35 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <div class="overshadow">
-                    <img src="obrazek_rotator.jpg" class="d-block w-100" alt="...">
-                </div>
+            <img src="obrazek_rotator.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-                <h1 style="width: 50%; margin: 0 auto; margin-bottom: 20%; text-shadow: black 1px 0 10px;">Novinka pro ochranu spotřebitele v energetice</h1>
-            </div>
-            </div>
-        <div class="carousel-inner">
-            <div class="carousel-item">
-                <div class="overshadow">
-                    <img src="obrazek_rotator.jpg" class="d-block w-100" alt="...">
-                </div>
-            <div class="carousel-caption d-none d-md-block">
-                <h1 style="width: 50%; margin: 0 auto; margin-bottom: 20%; text-shadow: black 1px 0 10px;">Novinka pro ochranu spotřebitele v energetice</h1>
-            </div>
-            </div>
-        <div class="carousel-inner">
-            <div class="carousel-item ">
-                <div class="overshadow">
-                    <img src="obrazek_rotator.jpg" class="d-block w-100" alt="...">
-                </div>
-            <div class="carousel-caption d-none d-md-block">
-                <h1 style="width: 50%; margin: 0 auto; margin-bottom: 20%; text-shadow: black 1px 0 10px;">Novinka pro ochranu spotřebitele v energetice</h1>
-            </div>
+                <h5>Novinka pro ochranu spotřebitele v energetice</h5>
             </div>
         </div>
-        <div class="carousel-inner">
-            <div class="carousel-item ">
-                <div class="overshadow">
-                    <img src="obrazek_rotator.jpg" class="d-block w-100" alt="...">
-                </div>
+        <div class="carousel-item">
+            <img src="obrazek_rotator.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-                <h1 style="width: 50%; margin: 0 auto; margin-bottom: 20%; text-shadow: black 1px 0 10px;">Novinka pro ochranu spotřebitele v energetice</h1>
-            </div>
+                <h5>Novinka pro ochranu spotřebitele v energetice</h5>
             </div>
         </div>
-        <div class="carousel-inner">
-            <div class="carousel-item ">
-                <div class="overshadow">
-                    <img src="obrazek_rotator.jpg" class="d-block w-100" alt="...">
-                </div>
+        <div class="carousel-item">
+            <img src="obrazek_rotator.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-                <h1 style="width: 50%; margin: 0 auto; margin-bottom: 20%; text-shadow: black 1px 0 10px;">Novinka pro ochranu spotřebitele v energetice</h1>
+                <h5>Novinka pro ochranu spotřebitele v energetice</h5>
             </div>
+        </div>
+        <div class="carousel-item">
+            <img src="obrazek_rotator.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Novinka pro ochranu spotřebitele v energetice</h5>
             </div>
+        </div>
+        <div class="carousel-item">
+            <img src="obrazek_rotator.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Novinka pro ochranu spotřebitele v energetice</h5>
+            </div>
+        </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -121,8 +107,6 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
-        </div>
-        </div>
     </div>
     <!-- nabidky -->
     <div class="boxy text-center">
@@ -186,8 +170,8 @@
     <div class="aktuality">
         <h3 style="display: inline;">Pro spotřebitele</h3>
         <div class="container">
-            <div class="row row-cols-lg-4 row-cols-md-1 row-cols-sm-1">
-                <div class="col karticka h-100">
+            <div class="row row-cols-lg-3 row-cols-md-1 row-cols-sm-1">
+                <div class="col karticka">
                     
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-chat-left-text" viewBox="0 0 16 16">
                             <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
@@ -204,7 +188,7 @@
                         </div>
                     
                 </div>
-                <div class="col karticka h-100">
+                <div class="col karticka">
                     
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-left-right" viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="M1 11.5a.5.5 0 0 0 .5.5h11.793l-3.147 3.146a.5.5 0 0 0 .708.708l4-4a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 11H1.5a.5.5 0 0 0-.5.5zm14-7a.5.5 0 0 1-.5.5H2.707l3.147 3.146a.5.5 0 1 1-.708.708l-4-4a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 4H14.5a.5.5 0 0 1 .5.5z"/>
@@ -220,7 +204,7 @@
                         </div>
                     
                 </div>
-                <div class="col karticka h-100">
+                <div class="col karticka">
                     
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-vector-pen" viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="M10.646.646a.5.5 0 0 1 .708 0l4 4a.5.5 0 0 1 0 .708l-1.902 1.902-.829 3.313a1.5 1.5 0 0 1-1.024 1.073L1.254 14.746 4.358 4.4A1.5 1.5 0 0 1 5.43 3.377l3.313-.828L10.646.646zm-1.8 2.908-3.173.793a.5.5 0 0 0-.358.342l-2.57 8.565 8.567-2.57a.5.5 0 0 0 .34-.357l.794-3.174-3.6-3.6z"/>
@@ -237,7 +221,7 @@
                         </div>
                     
                 </div>
-                <div class="col karticka h-100">
+                <div class="col karticka">
                     
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-calculator" viewBox="0 0 16 16">
                             <path d="M12 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"/>
@@ -254,7 +238,7 @@
                         </div>
                     
                 </div>
-                <div class="col karticka h-100">
+                <div class="col karticka">
                     
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-border-width" viewBox="0 0 16 16">
                             <path d="M0 3.5A.5.5 0 0 1 .5 3h15a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-2zm0 5A.5.5 0 0 1 .5 8h15a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-1zm0 4a.5.5 0 0 1 .5-.5h15a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z"/>
@@ -270,7 +254,7 @@
                         </div>
                     
                 </div>
-                <div class="col karticka h-100">
+                <div class="col karticka">
                     
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
                             <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
@@ -322,14 +306,14 @@
 
     <div class="collapse" id="collapseExample">
         <div class="dolni-menu navbar">
-            <div class="container-fluid">
+            <div class="container-fluid dolni">
                 <p class="navbar-text">
                     Energerický <br>
                     Regulační věstník a <br>
                     Cenová Rozhodnutí
                 </p>
                 <p class="navbar-text">
-                    Statistika kontrol 
+                    Statistika kontrol <br>
                     provedených ERÚ<br>
                     s členěním podle<br>
                     kontrolovaných <br>
@@ -371,32 +355,46 @@
             </div>
         </div>
     </div>
-
+    
+</div>
     <!-- hodnoceni -->
     <div style="background-color:rgb(229, 235, 240);">
-        <div class="rating">
-            <h3>Ohodnoťte tuto stránku</h3>
-            <h5>Byly tyto informace užitečné?</h5>
-            <div class="radio text-center">
-                <p>Rozhodně</p>
-                <form>
-                    <label for="1">😄</label>
-                    <input type="radio" name="rating" id="1">
-                    <label for="2">🙂</label>
-                    <input type="radio" name="rating" id="2">
-                    <label for="3">😐</label>
-                    <input type="radio" name="rating" id="3">
-                    <label for="4">😔</label>
-                    <input type="radio" name="rating" id="4">
-                    <label for="5">😞</label>
-                    <input type="radio" name="rating" id="5">
-                </form>
-                <p>Rozhodně ne</p>
+        <div class="container">
+            <div class="rating">
+                <h3>Ohodnoťte tuto stránku</h3>
+                <h5>Byly tyto informace užitečné?</h5>
+                <div class="radio text-center">
+                    <p>Rozhodně</p>
+                    <form>
+                        <div>
+                            <label for="1">😄</label>
+                            <input type="radio" name="rating" id="1">
+                        </div>
+                        <div>
+                            <label for="2">🙂</label>
+                            <input type="radio" name="rating" id="2">
+                        </div>
+                        <div>
+                            <label for="3">😐</label>
+                            <input type="radio" name="rating" id="3">
+                        </div>
+                        <div>
+                            <label for="4">😔</label>
+                            <input type="radio" name="rating" id="4">
+                        </div>
+                        <div>
+                            <label for="5">😞</label>
+                            <input type="radio" name="rating" id="5">
+                        </div>
+                    </form>
+                    <p>Rozhodně ne</p>
+                </div>
             </div>
         </div>
     </div>
     <!-- footer -->
     <div class="footer">
+        <div class="container">
         <div class="flex-container">
             <div class="item flex-item2">
                 <h5>Související instituce</h5> <br>
@@ -482,6 +480,7 @@
             <a href="#">Ochrana osobních údajů  |</a>
             <a href="#">Přístupnost |</a>
             <a href="#">Mapa ebu</a>
+        </div>
         </div>
     </div>
 </body>
